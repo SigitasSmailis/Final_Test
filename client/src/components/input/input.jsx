@@ -6,6 +6,7 @@ const StyledInput = styled.input`
   border: 1px solid #b9b9b9;
   font-size: 1rem;
   border-radius: 0.25rem;
+  margin: 0.3rem 0;
 `;
 
 const Input = ({ onChange, value, type, placeholder, required }) => {
